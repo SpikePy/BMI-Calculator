@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>BMI-Calculator</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1 title="Body Mass Index"><img src="favicon.svg"> BMI-Calculator</h1>
+
+  <form>
+    <table>
+      <tr>
+        <td>Size:</td>
+        <td><input type="number" size="3" id="size" onchange="js_bmi()"></td>
+        <td><unit>cm</unit></td>
+      </tr>
+      <tr>
+        <td>Weight: </td>
+        <td><input type="number" step="0.1" size="3" id="weight" onchange="js_bmi()"></td>
+        <td><unit>kg</unit></td>
+      </tr>
+      <tr title="Normal: 18.5 - 25 kg/m²">
+        <td>BMI: </td>
+        <td><input type="number" step="0.1" size="3" id="bmi" onchange="js_weight()"></td>
+        <td><unit><sup>kg</sup>&frasl;<sub>m²</sub></unit></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
