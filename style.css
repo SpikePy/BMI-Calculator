@@ -31,7 +31,6 @@ input {
   background-color: rgb(240, 240, 240);
   -moz-appearance: textfield;
 }
-
 input:hover {
-    background-color: rgb(236, 255, 208);
+    background-color: rgb(220, 220, 220);
 }
